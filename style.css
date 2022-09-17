@@ -1,0 +1,155 @@
+
+@import url('http://fonts.cdnfonts.com/css/black-jack');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: inherit;
+    
+  }
+.section1{
+    background-color: aquamarine;
+    height: 1000px;
+  
+
+}
+.section2{
+    background-color: aquamarine;
+    height: 2100px;
+    font-family: Aileron;
+}
+
+footer{
+    background-color:#222;
+    height: 120px;
+    font-family: Aileron;
+    color: aliceblue;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tittle{
+    font-size: 9vw;
+    font-weight: 200;
+    font-family: Aileron;
+    font-size: 138.25px;
+    position: absolute;
+    top: 102px;
+    left: 609px;
+}
+.tittle1{
+    color: #C5C6C7;
+    font-weight: 200;
+    font-family: Aileron;
+    font-size: 138.25px;
+    position: absolute;
+    left: 437px;
+    top: 104px;
+    font-weight: 400;
+    z-index: 10000;
+}
+.tittle2{
+    color: #C5C6C7;
+    position: absolute;
+    font-family: 'BlackJack', sans-serif;
+    font-size: 107px;
+    left: 800px;
+    top: 198px;
+    z-index: 10000;
+}
+
+.img1{
+    margin: 67px;
+}
+.img2{
+  
+margin-top: -500px;
+margin-left: 950px;
+}
+.menu-btn{
+    text-decoration: auto;
+    font-family: Aileron;
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+.button{
+    position: relative;
+    top: 419px;
+    left: 598px;
+    margin-right: 76em;
+    margin-left: 2em;
+    padding: 11px;
+    border: 1px solid #111;
+    border-radius: 2em;
+    text-align: center;
+    text-decoration: none;
+}
+.img3 { 
+    position: absolute;
+    left: 457px;
+    cursor: pointer;
+}
+.img4{
+    position: absolute;
+    left: 500px;
+    top: 1558px;
+    cursor: pointer;
+}
+.img5{
+    position: absolute;
+    left: 430px;
+    top: 2105px;
+    cursor: pointer;
+}
+.img6{
+        position: absolute;
+    left: 500px;
+    top: 2663px;
+    cursor: pointer;
+}
+.box-shadow{
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+} 
+.getintouch{
+    font-size: 25px;
+}
+.mail{
+    color: aliceblue;
+    text-decoration: none;
+    line-height: 2;
+    letter-spacing: 3px;
+}
+.linkedin{
+    color: aliceblue;
+    text-decoration: none;
+    line-height: 2;
+    letter-spacing: 3px;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .img3:hover .overlay {
+    opacity: 1;
+  }
+  .img4:hover .overlay {
+    opacity: 1;
+  }
+  .img5:hover .overlay {
+    opacity: 1;
+  }
+  .img6:hover .overlay {
+    opacity: 1;
+  }
